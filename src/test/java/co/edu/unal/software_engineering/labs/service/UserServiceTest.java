@@ -109,7 +109,7 @@ public class UserServiceTest{
         user.setSurnames( "Test" );
         user.setPassword( "Test" );
         user.setUsername( "Test" );
-        assertTrue( userService.isRightUser( user ) );
+        assertFalse( userService.isRightUser( user ) );
 
       
     }
