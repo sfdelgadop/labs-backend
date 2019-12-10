@@ -111,7 +111,7 @@ public class UserServiceTest{
         user.setUsername( "Test" );
         assertTrue( userService.isRightUser( user ) );
 
-
+      
     }
 
 }
